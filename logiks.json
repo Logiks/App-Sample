@@ -1,0 +1,34 @@
+{
+    "name": "App-blank",
+    "version": "2.0.0",
+    "status": "beta",
+    "type": "app",
+    "package":"olgks._blank",
+    "description": "Blank app is a clean canvas, for those who want to start from the scatch.",
+    "keywords": "",
+    "license": "MIT License",
+    "homepage": "https://github.com/LogiksApps/App-blank",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LogiksApps/App-blank.git"
+    },
+    "logiks-core": {
+        "min": "4.0",
+        "max": "*"
+    },
+    "files": [],
+    "ignore": [
+        ".git",
+        "Readme.txt"
+    ],
+    "dependencies": [],
+    "devDependencies": [],
+    "permissions":[],
+    "schema":[],
+    "authors": [
+        {
+            "name": "Bismay Kumar Mohapatra",
+            "email": "bismay@openlogiks.org"
+        }
+    ]
+}
