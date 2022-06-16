@@ -2,16 +2,18 @@
 
 <html {$PAGE.HTML_ATTRIBUTES}>
   <head {$PAGE.HEAD_ATTRIBUTES}>
-    <title>{$APPS_NAME}</title>
+    <!-- start: HEADER -->
+    <title>{$PAGE.TITLE}</title>
+    <meta name='description' content='{$PAGE.DESCRIPTION}' />
+    <meta name='keywords' content='{$PAGE.KEYWORDS}' />
+    <meta name='robots' content='{$PAGE.ROBOTS}' />
+    <!-- end: HEADER -->
+    
     {$PAGE.FAVICON}
     
     <!-- start: META -->
-    <meta name='description' content='{$PAGE.DESCRIPTION}' />
-	<meta name='keywords' content='{$PAGE.KEYWORDS}' />
-	<meta name='robots' content='{$PAGE.ROBOTS}' />
-	
-	{pageseometa}
-	<!-- end: META -->
+    {pageseometa}
+    <!-- end: META -->
 	
 	{$PAGE.VIEWPORT}
 	{$PAGE.CSS}
